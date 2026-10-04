@@ -1,1 +1,5 @@
 @media(max-width:800px){.header{height:auto;min-height:96px;padding-block:20px;flex-wrap:wrap;gap:16px}.header nav{flex-wrap:wrap;gap:12px 20px}}
+
+/* Accent headings and a stronger divider distinguish index sections. */
+.project-group.year-group>.group-heading h2{color:var(--accent)}
+.project-group.year-group{border-top:2px solid var(--line)}
