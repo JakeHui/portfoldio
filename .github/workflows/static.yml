@@ -25,6 +25,8 @@ jobs:
           cp *.html *.css *.js .nojekyll _site/
           cat assets.zip.001 assets.zip.002 assets.zip.003 > /tmp/portfolio-assets.zip
           unzip -q /tmp/portfolio-assets.zip -d _site
+          cp -R assets/. _site/assets/
+          test -f _site/assets/scafish-3.jpg
           test -f _site/assets/decode-v2-photo.jpg
       - uses: actions/upload-pages-artifact@v3
         with:
