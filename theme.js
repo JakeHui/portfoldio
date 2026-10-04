@@ -1,0 +1,1 @@
+(()=>{const valid=['original','cobalt','ember','paper'];const requested=new URLSearchParams(location.search).get('theme');document.documentElement.dataset.theme=valid.includes(requested)?requested:'ember';})();
