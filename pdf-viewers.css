@@ -1,0 +1,6 @@
+/* Shared PDF embeds: let PDF.js fit each page to the available viewport. */
+.resume-viewer,.portfolio-readers,.portfolio-reader,.detail-content{min-width:0;max-width:100%}
+.resume-viewer iframe,.portfolio-reader iframe{display:block;box-sizing:border-box;width:100%;max-width:100%;height:clamp(360px,78vh,900px);height:clamp(360px,78dvh,900px);min-height:0;border:1px solid var(--line);background:var(--bg)}
+.portfolio-reader iframe{border-width:1px 0 0}
+@media(max-width:650px){.resume-viewer iframe,.portfolio-reader iframe{height:clamp(320px,72vh,720px);height:clamp(320px,72dvh,720px)}}
+@media(max-height:500px) and (orientation:landscape){.resume-viewer iframe,.portfolio-reader iframe{height:85vh;height:85dvh;min-height:240px}}

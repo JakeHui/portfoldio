@@ -1,0 +1,16 @@
+/* Portfolio reading controls: leave room for download on small embedded viewers. */
+#editorModeButtons{display:none!important}
+@media(max-width:600px){
+#toolbarViewer{display:flex!important;justify-content:space-between;gap:0}
+#toolbarViewerLeft,#toolbarViewerMiddle,#toolbarViewerRight{position:static!important;transform:none!important;margin:0!important;flex:none!important}
+#toolbarViewerLeft .toolbarButtonWithContainer,#toolbarViewerLeft .splitToolbarButton,#toolbarViewerLeft .verticalToolbarSeparator,#scaleSelectContainer,#printButton,#secondaryToolbarToggle,#toolbarViewerRight>.verticalToolbarSeparator{display:none!important}
+#toolbarViewerRight>.toolbarHorizontalGroup:not(#editorModeButtons){display:flex!important}
+#downloadButton{display:block!important}
+#pageNumber{width:32px!important}
+}
+
+#toolbarViewerRight>#editorModeButtons{display:none!important}
+
+
+#mainContainer{min-width:0}@media(max-width:600px){#viewsManagerToggleButton{display:none!important}}
+
