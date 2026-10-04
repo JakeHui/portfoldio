@@ -1,0 +1,3 @@
+/* Match photo frames and letterboxing to the active page theme. */
+body .gallery-photo,body .gallery-photo img,body .gallery-grid figure,body .gallery-grid video,body .media-track>a,body .media-track>figure,body .media-track img,body .media-track video,body .project-image,body .project-image img,body .row-image,body .row-image[data-project] img,body .robot-version>a,body .robot-version img,body .detail-cover,body .detail-media img,body .print,body .print img,body .article-pages img,body #lightbox{background:var(--bg)}
+body .print{color:var(--fg)}
