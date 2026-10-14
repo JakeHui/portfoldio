@@ -3,3 +3,5 @@
 /* Accent headings and a stronger divider distinguish index sections. */
 .project-group.year-group>.group-heading h2{color:var(--accent)}
 .project-group.year-group{border-top:2px solid var(--line)}
+
+.featured-more{display:flex;justify-content:center;margin-top:44px;padding-top:32px;border-top:1px solid var(--line)}
